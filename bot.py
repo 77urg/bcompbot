@@ -23,7 +23,7 @@ def get_course_info(code):
         "econ": "economics",
         "psyc": "psychology",
         "stat": "stat",
-        "geog": "geography",
+        "geog": "geog",
         "frhd": "frhd",
         "hk": "human-kinetics",  # example
         "oac": "oac",
