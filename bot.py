@@ -19,16 +19,14 @@ def get_course_info(code):
         "math": "math",
         "cis": "cis",
         "biol": "biol",
-        "chem": "chemistry",
-        "econ": "economics",
-        "psyc": "psychology",
+        "chem": "chem",
+        "econ": "econ",
+        "psyc": "psyc",
         "stat": "stat",
         "geog": "geog",
         "frhd": "frhd",
-        "hk": "human-kinetics",  # example
         "oac": "oac",
-        "veterinary": "veterinary-science",  # example
-        # add more as needed might be able to get rid of this
+        # might not need slugmap at all
     }
 
     subject_slug = slug_map.get(subject, subject)
